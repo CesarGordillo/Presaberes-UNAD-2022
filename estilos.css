@@ -1,0 +1,47 @@
+.titulo {
+    color: blue;
+    text-align: center;
+}
+.encabezado {
+    color: black
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+td, th {
+    border: 22px solid rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    text-align: justify;
+    padding: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+* {
+    box-sizing: border-box;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
